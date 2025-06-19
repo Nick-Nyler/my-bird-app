@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "poetry add flask flask-sqlalchemy flask-migrate flask-restful sqlalchemy-serializer gunicorn"
+version = "0.1.0"
+description = ""
+authors = ["Nick <nicknyler@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
